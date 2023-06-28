@@ -132,7 +132,7 @@ const experiences = [
   {
     title: 'Manager',
     company_name: 'Avant Bicycle and Cafe',
-    icon: space,
+    // icon: space,
     iconBg: '#333333',
     date: 'Apr 2017 - Sept 2018',
   },
@@ -142,7 +142,7 @@ const projects = [
   {
     id: 'project-1',
     name: 'Yeasty Bois Pizza Ranker',
-    description: 'A pizza ranking app.',
+    description: 'Pizza ranking application that allows the user to add their own pizza restaurant and leave comments and likes. ',
     tags: [
       {
         name: 'react',
@@ -165,7 +165,7 @@ const projects = [
     id: 'project-2',
     name: 'Kids Meals',
     description:
-      'An app to create and track meals.',
+      'Initial version of Prepp that allows users to create and store meals in a local database',
     tags: [
       {
         name: 'react',
@@ -187,7 +187,7 @@ const projects = [
   {
     id: 'project-3',
     name: 'Prepp',
-    description: 'A full-stack meal prepping app.',
+    description: 'A full-stack meal prepping app that allows users to create and add meals to a day in their meal plan..',
     tags: [
       {
         name: 'nextjs',
