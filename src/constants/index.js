@@ -4,16 +4,16 @@ import {
   ux,
   prototyping,
   javascript,
-  typescript,
+  python,
   html,
   css,
   reactjs,
   redux,
   tailwind,
-  nodejs,
+  flask,
   git,
-  figma,
-  docker,
+  expo,
+  sql,
   postgresql,
   rubyrails,
   graphql,
@@ -23,9 +23,9 @@ import {
   movie,
   nyeusi,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
+  flatiron,
+  slohi,
+  Omnium,
   microverse,
 } from '../assets';
 
@@ -57,13 +57,28 @@ const services = [
     title: 'UI/UX Design',
     icon: ux,
   },
-  {
-    title: 'Software Prototyping',
-    icon: prototyping,
-  },
+  
 ];
 
 const technologies = [
+  {
+    name: 'JavaScript',
+    icon: javascript,
+    
+  },
+  {
+    name: 'React JS/ Native',
+    icon: reactjs,
+  },
+  {
+    name: 'Python',
+    icon: python,
+
+  },
+  {
+    name: 'Flask',
+    icon: flask,
+  },
   {
     name: 'HTML 5',
     icon: html,
@@ -72,92 +87,62 @@ const technologies = [
     name: 'CSS 3',
     icon: css,
   },
-  {
-    name: 'JavaScript',
-    icon: javascript,
-  },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
-    name: 'React JS',
-    icon: reactjs,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
+ 
   {
     name: 'Tailwind CSS',
     icon: tailwind,
   },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
+  
   {
     name: 'git',
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'expo',
+    icon: expo,
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'sql',
+    icon: sql,
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Flatiron School Graduate',
+    company_name: 'Flatiron School',
+    icon: flatiron,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Jan 2023 - May 2023',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Manager',
+    company_name: 'SloHi Coffee Company',
+    icon: slohi,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Jul 2020 - Jan 2023',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Owner/Co-Founder',
+    company_name: 'Omnium',
+    icon: Omnium,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Oct 2018 - Jul 2020',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    title: 'Manager',
+    company_name: 'Avant Bicycle and Cafe',
+    icon: space,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Apr 2017 - Sept 2018',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Yeasty Bois Pizza Ranker',
+    description: 'A pizza ranking app.',
     tags: [
       {
         name: 'react',
@@ -173,14 +158,14 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: 'https://github.com/GageHarmon/Yeasty-Bois-Pizza-Portal',
+    
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Kids Meals',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'An app to create and track meals.',
     tags: [
       {
         name: 'react',
@@ -196,13 +181,13 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/vargasmichael/Kids-Meals',
+    
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Prepp',
+    description: 'A full-stack meal prepping app.',
     tags: [
       {
         name: 'nextjs',
@@ -218,54 +203,10 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://github.com/vargasmichael/prepp',
+   
   },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
+ 
 ];
 
 export { services, technologies, experiences, projects };

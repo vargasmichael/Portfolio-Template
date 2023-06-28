@@ -6,7 +6,7 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
+import michael from './personal/Michael.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -24,23 +24,23 @@ import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 
 import css from './tech/css.png';
-import docker from './tech/docker.png';
-import figma from './tech/figma.png';
+import sql from './tech/sql.png';
+import expo from './tech/expo.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
-import nodejs from './tech/nodejs.png';
+import flask from './tech/flask.png';
 import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
+import python from './tech/python.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
+import flatiron from './company/flatiron.png';
+import slohi from './company/slohi.png';
+import Omnium from './company/Omnium.png';
 import microverse from './company/microverse.png';
 
 import komikult from './projects/komikult.png';
@@ -57,7 +57,7 @@ export {
   worldmap,
   logo,
   logotext,
-  shaq,
+  michael,
   backend,
   ux,
   frontend,
@@ -73,27 +73,27 @@ export {
   send,
   sendHover,
   css,
-  docker,
-  figma,
+  sql,
+  expo,
   git,
   graphql,
   html,
   javascript,
-  nodejs,
+  flask,
   postgresql,
   rubyrails,
   reactjs,
   redux,
   tailwind,
-  typescript,
+  python,
   komikult,
   leaderboard,
   math,
   movie,
   nyeusi,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
+  flatiron,
+  slohi,
+  Omnium,
   microverse,
 };

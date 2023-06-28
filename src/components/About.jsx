@@ -31,18 +31,20 @@ const About = () => {
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Who Am I?</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Software engineer skilled in JavaScript, React, React Native, Python and Flask. 
+        Seasoned leader and manager with experience in entrepreneurship with strong history 
+        of responsibility with P&L, sales strategies, POS management and food safety certifications. 
+        Seeking a position that values curiosity, learning, and mentoring. Aiming to bring 
+        entrepreneurial skills and unique perspective to a team in the tech industry. 
+        Fluent in Spanish. Values collaboration, teamwork, inclusivity. Passionate about 
+        efficiency and how to implement in existing systems. Previous background in 
+        management, team-building, entrepreneurship, problem solving, and working in a diverse team.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
