@@ -22,7 +22,7 @@ import {
   math,
   movie,
   nyeusi,
-  space,
+  coffeeicon,
   flatiron,
   slohi,
   Omnium,
@@ -132,7 +132,7 @@ const experiences = [
   {
     title: 'Manager',
     company_name: 'Avant Bicycle and Cafe',
-    // icon: space,
+     icon: coffeeicon,
     iconBg: '#333333',
     date: 'Apr 2017 - Sept 2018',
   },

@@ -48,7 +48,7 @@ import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+import coffeeicon from './projects/coffeeicon.png';
 
 export {
   bwmap,
@@ -91,7 +91,7 @@ export {
   math,
   movie,
   nyeusi,
-  space,
+  coffeeicon,
   flatiron,
   slohi,
   Omnium,
